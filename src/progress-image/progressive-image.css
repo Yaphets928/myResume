@@ -1,0 +1,28 @@
+/* progressive image CSS */
+.progressive {
+    display: block;
+    overflow: hidden;
+    outline: none;
+}
+
+.progressive img {
+    display: block;
+    width: 100%;
+    max-width: none;
+    height: auto;
+    border: 0;
+}
+
+
+.progressive .preview {
+    opacity: 0.25;
+    filter: blur(2vw);
+    transform: scale(1.1);
+}
+
+.progressive .reveal {
+    filter: blur(0);
+    transform: scale(1);
+    opacity: 1;
+    transition: transform 1s ease-out, opacity 1s linear;
+}
