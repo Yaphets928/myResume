@@ -159,7 +159,7 @@
         }
 
         // 移动端模式下关闭菜单
-        if (getComputedStyle(toc).top === '60px') {
+        if (getComputedStyle(toc).left === '0px') {
             hamburger.classList.toggle('transformed', false);
             toc.style.display = 'none';
         }
