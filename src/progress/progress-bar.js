@@ -1,4 +1,5 @@
 ;
+;
 (function () {
   let progressBody = document.querySelector('.with-progress');
   // 浏览器可视窗口的高度
