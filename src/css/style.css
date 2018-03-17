@@ -1,20 +1,4 @@
-@media (max-width: 768px) {
-    #github {
-        display: none;
-    }
 
-    #hamburger {
-        display: block;
-    }
-
-    .label {
-        width: 100%;
-    }
-
-    .content {
-        max-width: 100%;
-    }
-}
 
 * {
     box-sizing: border-box;
@@ -130,3 +114,20 @@ nav {
     transform: rotate(45deg);
 }
 
+@media (max-width: 768px) {
+    #github {
+        display: none;
+    }
+
+    #hamburger {
+        display: block;
+    }
+
+    .label {
+        width: 100%;
+    }
+
+    .content {
+        max-width: 100%;
+    }
+}
